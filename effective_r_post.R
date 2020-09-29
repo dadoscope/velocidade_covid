@@ -92,7 +92,7 @@ estimate_effective_R <- function(data) {
 
 
 
-setwd("/Users/isiscosta/RScript/moving_average_covid_deaths")
+setwd("~/RScript/moving_average_covid_deaths")
 link = "https://data.brasil.io/dataset/covid19/caso.csv.gz"
 dat = fread(link, stringsAsFactors = FALSE)
 regioes <- c("Norte","Nordeste","Sudeste","Sul","Centro-Oeste")
